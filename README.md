@@ -15,4 +15,4 @@ Tujuan proyek ini adalah untuk mendemokan kemampuan front-end development dan UI
 👉 https://warunginaja.netlify.app/
 
 ## Author
--
+-https://github.com/Rayna-Ecommerce
