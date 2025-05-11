@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WarungIn Aja</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="asset/logo.jpg">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="font-[Poppins] bg-withe text-white-800">
+
+        <!-- NavBar -->
+        <nav class="flex items-center justify-between px-6 py-4 bg-white shadow-md">
+            <div class="flex items-center gap-2">
+              <img src="asset/logo.jpg" alt="WarungInAja Logo" class="h-10 w-auto" />
+              <span class="text-xl font-bold text-green-600">WarungInAja</span>
+            </div>
+            
+            <ul class="flex gap-4">
+              <li><a href="about" class="text-gray-700 hover:text-green-600">About</a></li>
+              <li><a href="product" class="text-gray-700 hover:text-green-600">Products</a></li>
+              <li><a href="contact" class="text-gray-700 hover:text-green-600">Contact</a></li>
+            </ul>
+          </nav>
+          
+
+        <!-- Hero section -->
+         <header class="bg-greeen-500 text-white p-6">
+            <div class="container mx-auto text-center">
+                <h1 class="mt-2 text-lg">Belanja Kebutuhan pokok jadi lebih mudah, praktis dan modern!</h1>
+            </div>
+         </header>
+
+         <!-- About section -->
+          <section class="py-12 bg-gray-100">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-6">
+                <img src="asset/ilustrator-removebg-preview.png" alt="Ibu Warung" class="w-[326] h-[293] mx-auto object-contain" />
+                <div class="md:w-1/2">
+                    <h2 class="text-2x1 font-semibold mb-4">Tentang Kami:</h2>
+                    <p>WarungInAja adalah solusi digital untuk warung tradisional agar bisa bersaing di era modern.</p>
+                    <p>Dibuat dengan cinta dan semangat UMKM lokal.</p>
+                </div>
+            </div>
+          </section>
+
+          <!-- Product Section -->
+           <section class="py-12">
+            <section id="products" class="bg-cover bg-center bg-no-repeat py-12" style="background-image: url('/asset/bakground.jpg');">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-2xl font-semibold mb-8">Produk Kami</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                    <!-- Produk Beras -->
+                    <div class="bg-[#FDF6EC] p-4 rounded-lg shadow hover:shadow-md transition" data-aos="fade-up" data-aos-duration="700">
+                      <img src="asset/beras.jpg" alt="Minyak-goreng" class="w-full h-40 object-contain mb-4">
+                      <h3 class="font-bold text-lg">Beras Putih</h3>
+                      <p class="text-sm text-white-600">Beras putih sehat dan
+                        bergizi serta enak untuk 
+                        disajikan saat yang hangat 
+                        </p>
+                        <h4 class="font-bold text-lg">Harga: Rp 58.000 pcs</h4>
+                        <a href="https://wa.me/6285864026603" target="_blank"
+                        class="inline-block bg-white-600 hover:bg-green-700 text-black font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                        Beli Sekarang
+                        </a>
+                    </div>
+
+                    <!-- Product Minyak Goreng -->
+                    <div class="bg-[#FDF6EC] p-4 rounded-lg shadow hover:shadow-md transition" data-aos="fade-up" data-aos-duration="700">
+                        <img src="asset/minyak_goreng.jpg" alt="Minyak-goreng" class="w-full h-40 object-contain mb-4">
+                        <h3 class="font-bold text-lg">Minyak goreng</h3>
+                        <p class="text-sm text-white-600">Minyak goreng murni
+                          Kelapa sawit jernih dan 
+                          Bersih </p>
+                          <h4 class="font-bold text-lg">Harga: Rp 17.000 btl</h4>
+                          <a href="https://wa.me/6285864026603" target="_blank"
+                          class="inline-block bg-white-600 hover:bg-green-700 text-black font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                          Beli Sekarang
+                          </a>
+                      </div>
+                    
+                    <!-- Produk Gas Elpiji -->
+                    <div class="bg-[#FDF6EC] p-4 rounded-lg shadow hover:shadow-md transition" data-aos="fade-up" data-aos-duration="700">
+                        <img src="asset/gas_3kg.jpg" alt="Gas-3Kg" class="w-full h-40 object-contain mb-4">
+                        <h3 class="font-bold text-lg">Gas 3Kg</h3>
+                        <p class="text-sm text-white-600">Gas elpiji dalam ukuran 
+                          3kg yang mudah dibawa dan
+                          lebih ekonomis</p>
+                        <h4 class="font-bold text-lg">Harga: Rp 25.000 pcs</h4>
+                          <a href="https://wa.me/6285864026603" target="_blank"
+                          class="inline-block bg-white-600 hover:bg-green-700 text-black font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                          Beli Sekarang
+                          </a>
+                      </div>
+
+                    <!-- Produk Indomie -->
+                    <div class="bg-[#FDF6EC] p-4 rounded-lg shadow hover:shadow-md transition" data-aos="fade-up" data-aos-duration="700">
+                        <img src="asset/indomie.jpg" alt="Indomie" class="w-full h-40 object-contain mb-4">
+                        <h3 class="font-bold text-lg">Indomie</h3>
+                        <p class="text-sm text-white-600">Rasa legendaris yang semua
+                          kalangan menyukai dan 
+                          Harga yang terjangkau</p>
+                          <h4 class="font-bold text-lg">Harga: Rp 3.000 pcs</h4>
+                          <a href="https://wa.me/6285864026603" target="_blank"
+                          class="inline-block bg-white-600 hover:bg-green-700 text-black font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                          Beli Sekarang
+                          </a>
+                      </div>
+
+                    <!-- Produk Gula Pasir -->
+                    <div class="bg-[#FDF6EC] p-4 rounded-lg shadow hover:shadow-md transition" data-aos="fade-up" data-aos-duration="700">
+                        <img src="asset/gula.jpg" alt="Gula-Pasir" class="w-full h-40 object-contain mb-4">
+                        <h3 class="font-bold text-lg">Gula Pasir</h3>
+                        <p class="text-sm text-white-600">Gula Pasir murni asli dari tebu
+                          tanpa bahan pengawet dan 
+                          zat kimia beracun lainya.</p>
+                        <h4 class="font-bold text-lg">Harga: Rp 14.000 pcs</h4>
+                        <a href="https://wa.me/6285864026603" target="_blank"
+                        class="inline-block bg-white-600 hover:bg-green-700 text-black font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                        Beli Sekarang
+                       </a>
+                </div>
+                    <!-- Produk Paketan -->
+                    <div class="bg-[#FDF6EC] p-4 rounded-lg shadow hover:shadow-md transition" data-aos="fade-up" data-aos-duration="700">
+                      <img src="asset/item removebg.png" alt="Produk-Paketan" class="w-full h-40 object-contain mb-4">
+                      <h3 class="font-bold text-lg">Produk Paketan</h3>
+                      <p class="text-sm text-white-600">Beli produk kami dengan 
+                        harga yang lebih ekonomis dan lebih hemat dalam 
+                        berbelanja serta lebih praktis dengan sekali klik.
+                      </p>
+                      <h4 class="font-bold text-lg">Harga: Rp 145.000 pcs</h4>
+                      <a href="https://wa.me/6285864026603" target="_blank"
+                      class="inline-block bg-white-600 hover:bg-green-700 text-black font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                      Beli Sekarang
+                     </a>
+              </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+  <footer class="bg-green-600 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 WarungInAja. Dibuat dengan semangat UMKM Indonesia 🇮🇩</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    </body>
+</html>
