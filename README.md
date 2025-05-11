@@ -12,7 +12,7 @@ Tujuan proyek ini adalah untuk mendemokan kemampuan front-end development dan UI
 - Tombol CTA WhatsApp
 
 ## Live Preview
-👉 
+👉 https://warunginaja.netlify.app/
 
 ## Author
-- [@namalo](https://github.com/namalo)
+-
